@@ -1,5 +1,5 @@
 {% set name = "jupyter_resource_usage_proxy" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_resource_usage_proxy-{{ version }}.tar.gz
-  sha256: 5d474bd3c78271d6924c4c202da89da01a1a3c176027796513567f950c6e92ab
+  sha256: de9d7f1fe6a34f43369d7085bd29bb5d64e1195382832795c94342dcba50d9cb
 
 build:
   number: 0
